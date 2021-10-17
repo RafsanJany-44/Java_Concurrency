@@ -7,9 +7,11 @@ public class Main {
         Task_2 obj2=new Task_2();
 
         obj1.start();
+        
         try{
             Thread.sleep(1000);
         }catch(Exception x){}
+        
         obj2.start();
     }
 }
